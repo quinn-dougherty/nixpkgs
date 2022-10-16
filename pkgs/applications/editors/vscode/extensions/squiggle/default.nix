@@ -8,7 +8,7 @@ in vscode-utils.buildVscodeMarketplaceExtension rec {
     name = "vscode-squiggle";
     publisher = "QURI";
     version = version;
-    sha256 = "sha256-bksUMN+ZdkmElVD8BC4ihklQyWlKkcpep2VOwUzISnQ=";
+    sha256 = "";
   };
 
   meta = with lib; {
