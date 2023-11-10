@@ -393,6 +393,8 @@ in {
 
     mbp2018-bridge-drv = callPackage ../os-specific/linux/mbp-modules/mbp2018-bridge-drv { };
 
+    nct6687d = callPackage ../os-specific/linux/nct6687d { };
+
     new-lg4ff = callPackage ../os-specific/linux/new-lg4ff { };
 
     nvidiabl = callPackage ../os-specific/linux/nvidiabl { };
@@ -562,6 +564,8 @@ in {
     qc71_laptop = callPackage ../os-specific/linux/qc71_laptop { };
 
     hid-ite8291r3 = callPackage ../os-specific/linux/hid-ite8291r3 { };
+
+    hid-tmff2 = callPackage ../os-specific/linux/hid-tmff2 { };
 
   } // lib.optionalAttrs config.allowAliases {
     ati_drivers_x11 = throw "ati drivers are no longer supported by any kernel >=4.1"; # added 2021-05-18;
